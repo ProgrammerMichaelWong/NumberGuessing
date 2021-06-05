@@ -1,11 +1,7 @@
-# Sample Snack app
+# Number Guessing
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Set a number before starting a game.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+In each round, your mobile phone will guess the number and you have to tell it whether the number is larger than or smaller than the current guess. If you select the wrong direction, an alert will be displayed and you have to select the direction again.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+At the end of the game, the number of rounds and the number set will be shown on the screen and you can start a new game.
