@@ -8,21 +8,34 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
     "expo": "~41.0.1",
+    "expo-app-loading": "*",
+    "expo-asset": "~8.3.1",
+    "expo-constants": "~10.1.3",
+    "expo-font": "~9.1.0",
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-web": "~0.13.12",
-    "expo-font": "~9.1.0",
-    "expo-asset": "~8.3.1",
-    "expo-constants": "~10.1.3",
-    "expo-app-loading": "*",
-    "@expo/vector-icons": "^12.0.0",
-    "react-native-paper": "3.6.0"
+    "react-native-paper": "3.6.0",
+    "react-native-web": "^0.16.3"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "guess-a-number-app",
+  "description": "Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelAProgrammer/NumberGuessing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelAProgrammer/NumberGuessing/issues"
+  },
+  "homepage": "https://github.com/MichaelAProgrammer/NumberGuessing#readme"
 }
